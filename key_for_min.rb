@@ -7,3 +7,8 @@ def key_for_min_value(name_hash)
     i do |k, v|    
     return k
 end
+
+name_hash.sort do |x,y|
+     x <=> y
+  end.first[0]
+end
