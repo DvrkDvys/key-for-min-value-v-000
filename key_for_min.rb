@@ -5,10 +5,12 @@ require 'pry'
 def key_for_min_value(name_hash)
   i = name_hash.sort
     i do |k, v|    
-    return k
+    name = k
+  end
+  return name
 end
 
-name_hash.sort do |x,y|
-     x <=> y
-  end.first[0]
-end
+# name_hash.sort do |x,y|
+#     x <=> y
+#   end.first[0]
+# end
