@@ -3,8 +3,7 @@
 require 'pry'
 
 def key_for_min_value(name_hash)
-  i = name_hash.sort
-    i do |k, v|    
+name_hash.sort do |k, v|    
     name = k
   end
   return name
