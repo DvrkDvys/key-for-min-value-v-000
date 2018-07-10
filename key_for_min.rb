@@ -6,4 +6,5 @@ def key_for_min_value(name_hash)
   i = name_hash.sort
   i[0] do |k, v|    
     return k
+  end
 end
