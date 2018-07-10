@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
  name_hash.sort_by { |key, value| value }.first
-    return a
+    return name_hash
 end
 
 # (hash.keys).each {|i| when (hash[i] <  hash[i + 1]) puts 
