@@ -6,6 +6,9 @@ def key_for_min_value(name_hash)
     return 
 end
 
+(hash.keys).each {|i| puts ( hash[i] <  hash[i + 1]) 
+
+
 
  hash = {:blake => 500, :ashley => 2, :adam => 1}
 
